@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/JsonSerialization
+END
+JsonSerializableObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/JsonSerialization/JsonSerializableObject.m
+END
+SerializationHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/JsonSerialization/SerializationHelper.h
+END
+JsonSerializationKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/JsonSerialization/JsonSerializationKit.h
+END
+SerializationHelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/JsonSerialization/SerializationHelper.m
+END
+PropertyDescriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/JsonSerialization/PropertyDescriptor.h
+END
+JsonSerializableObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/JsonSerialization/JsonSerializableObject.h
+END
+PropertyDescriptor.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/JsonSerialization/PropertyDescriptor.m
+END

@@ -12,11 +12,14 @@
 		044A76DD1DACD68B000733D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044A76DB1DACD68B000733D1 /* Main.storyboard */; };
 		044A76DF1DACD68B000733D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044A76DE1DACD68B000733D1 /* Assets.xcassets */; };
 		044A76E21DACD68B000733D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044A76E01DACD68B000733D1 /* LaunchScreen.storyboard */; };
-		044A76EF1DACD6B2000733D1 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A76EA1DACD6B2000733D1 /* Model.m */; };
-		044A76F01DACD6B2000733D1 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A76EC1DACD6B2000733D1 /* View.m */; };
-		044A76F11DACD6B2000733D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A76EE1DACD6B2000733D1 /* ViewController.m */; };
-		044A76F41DACD6CC000733D1 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A76F31DACD6CC000733D1 /* ViewModel.m */; };
 		044A76F61DACDFA0000733D1 /* image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 044A76F51DACDFA0000733D1 /* image.jpeg */; };
+		044A771C1DAF2255000733D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A77071DAF2255000733D1 /* ViewController.m */; };
+		044A771D1DAF2255000733D1 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A770A1DAF2255000733D1 /* Model.m */; };
+		044A771E1DAF2255000733D1 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A770D1DAF2255000733D1 /* View.m */; };
+		044A771F1DAF2255000733D1 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A77101DAF2255000733D1 /* ViewModel.m */; };
+		044A77201DAF2255000733D1 /* JsonSerializableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A77161DAF2255000733D1 /* JsonSerializableObject.m */; };
+		044A77211DAF2255000733D1 /* PropertyDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A77191DAF2255000733D1 /* PropertyDescriptor.m */; };
+		044A77221DAF2255000733D1 /* SerializationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A771B1DAF2255000733D1 /* SerializationHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,15 +31,22 @@
 		044A76DE1DACD68B000733D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044A76E11DACD68B000733D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		044A76E31DACD68B000733D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		044A76E91DACD6B2000733D1 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
-		044A76EA1DACD6B2000733D1 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
-		044A76EB1DACD6B2000733D1 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
-		044A76EC1DACD6B2000733D1 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
-		044A76ED1DACD6B2000733D1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		044A76EE1DACD6B2000733D1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		044A76F21DACD6CC000733D1 /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
-		044A76F31DACD6CC000733D1 /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
 		044A76F51DACDFA0000733D1 /* image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpeg; sourceTree = "<group>"; };
+		044A77061DAF2255000733D1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044A77071DAF2255000733D1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044A77091DAF2255000733D1 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		044A770A1DAF2255000733D1 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		044A770C1DAF2255000733D1 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		044A770D1DAF2255000733D1 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		044A770F1DAF2255000733D1 /* ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		044A77101DAF2255000733D1 /* ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		044A77151DAF2255000733D1 /* JsonSerializableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonSerializableObject.h; sourceTree = "<group>"; };
+		044A77161DAF2255000733D1 /* JsonSerializableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonSerializableObject.m; sourceTree = "<group>"; };
+		044A77171DAF2255000733D1 /* JsonSerializationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonSerializationKit.h; sourceTree = "<group>"; };
+		044A77181DAF2255000733D1 /* PropertyDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyDescriptor.h; sourceTree = "<group>"; };
+		044A77191DAF2255000733D1 /* PropertyDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyDescriptor.m; sourceTree = "<group>"; };
+		044A771A1DAF2255000733D1 /* SerializationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerializationHelper.h; sourceTree = "<group>"; };
+		044A771B1DAF2255000733D1 /* SerializationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerializationHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,14 +79,10 @@
 		044A76D11DACD68B000733D1 /* mvvmTest */ = {
 			isa = PBXGroup;
 			children = (
-				044A76E91DACD6B2000733D1 /* Model.h */,
-				044A76EA1DACD6B2000733D1 /* Model.m */,
-				044A76EB1DACD6B2000733D1 /* View.h */,
-				044A76EC1DACD6B2000733D1 /* View.m */,
-				044A76ED1DACD6B2000733D1 /* ViewController.h */,
-				044A76EE1DACD6B2000733D1 /* ViewController.m */,
-				044A76F21DACD6CC000733D1 /* ViewModel.h */,
-				044A76F31DACD6CC000733D1 /* ViewModel.m */,
+				044A77031DAF2255000733D1 /* Classes */,
+				044A77111DAF2255000733D1 /* Framwork */,
+				044A77121DAF2255000733D1 /* Third */,
+				044A77131DAF2255000733D1 /* Ulit */,
 				044A76D51DACD68B000733D1 /* AppDelegate.h */,
 				044A76D61DACD68B000733D1 /* AppDelegate.m */,
 				044A76DB1DACD68B000733D1 /* Main.storyboard */,
@@ -95,6 +101,97 @@
 				044A76D31DACD68B000733D1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		044A77031DAF2255000733D1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				044A77041DAF2255000733D1 /* Test */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		044A77041DAF2255000733D1 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				044A77051DAF2255000733D1 /* Controller */,
+				044A77081DAF2255000733D1 /* Model */,
+				044A770B1DAF2255000733D1 /* VIew */,
+				044A770E1DAF2255000733D1 /* ViewModel */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		044A77051DAF2255000733D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044A77061DAF2255000733D1 /* ViewController.h */,
+				044A77071DAF2255000733D1 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		044A77081DAF2255000733D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				044A77091DAF2255000733D1 /* Model.h */,
+				044A770A1DAF2255000733D1 /* Model.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044A770B1DAF2255000733D1 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				044A770C1DAF2255000733D1 /* View.h */,
+				044A770D1DAF2255000733D1 /* View.m */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		044A770E1DAF2255000733D1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				044A770F1DAF2255000733D1 /* ViewModel.h */,
+				044A77101DAF2255000733D1 /* ViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		044A77111DAF2255000733D1 /* Framwork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framwork;
+			sourceTree = "<group>";
+		};
+		044A77121DAF2255000733D1 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		044A77131DAF2255000733D1 /* Ulit */ = {
+			isa = PBXGroup;
+			children = (
+				044A77141DAF2255000733D1 /* JsonSerialization */,
+			);
+			path = Ulit;
+			sourceTree = "<group>";
+		};
+		044A77141DAF2255000733D1 /* JsonSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				044A77151DAF2255000733D1 /* JsonSerializableObject.h */,
+				044A77161DAF2255000733D1 /* JsonSerializableObject.m */,
+				044A77171DAF2255000733D1 /* JsonSerializationKit.h */,
+				044A77181DAF2255000733D1 /* PropertyDescriptor.h */,
+				044A77191DAF2255000733D1 /* PropertyDescriptor.m */,
+				044A771A1DAF2255000733D1 /* SerializationHelper.h */,
+				044A771B1DAF2255000733D1 /* SerializationHelper.m */,
+			);
+			path = JsonSerialization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,12 +266,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044A76F41DACD6CC000733D1 /* ViewModel.m in Sources */,
-				044A76F01DACD6B2000733D1 /* View.m in Sources */,
-				044A76EF1DACD6B2000733D1 /* Model.m in Sources */,
+				044A771F1DAF2255000733D1 /* ViewModel.m in Sources */,
+				044A77201DAF2255000733D1 /* JsonSerializableObject.m in Sources */,
+				044A771E1DAF2255000733D1 /* View.m in Sources */,
+				044A77211DAF2255000733D1 /* PropertyDescriptor.m in Sources */,
+				044A77221DAF2255000733D1 /* SerializationHelper.m in Sources */,
+				044A771C1DAF2255000733D1 /* ViewController.m in Sources */,
 				044A76D71DACD68B000733D1 /* AppDelegate.m in Sources */,
 				044A76D41DACD68B000733D1 /* main.m in Sources */,
-				044A76F11DACD6B2000733D1 /* ViewController.m in Sources */,
+				044A771D1DAF2255000733D1 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +431,7 @@
 				044A76E81DACD68B000733D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
