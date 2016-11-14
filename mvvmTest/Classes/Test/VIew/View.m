@@ -7,8 +7,7 @@
 //
 
 #import "View.h"
-#define kScreenWidth [UIScreen mainScreen].bounds.size.width
-#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
 @implementation View
 
 - (void)awakeFromNib {
@@ -25,7 +24,7 @@
         self.header = [[UIImageView alloc] initWithFrame:CGRectMake(marginH, marginV, 50, 50)];
         [self.contentView addSubview:self.header];
         
-        self.name = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxY(self.header.frame) +20, marginV, kScreenWidth - CGRectGetMaxX(self.header.frame) - 20, 20)];
+        self.name = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxY(self.header.frame) +20, marginV, kScreenWidth - CGRectGetMaxX(self.header.frame) - 50, 20)];
         [self.contentView addSubview:self.name];
         self.name.textColor = [UIColor blackColor];
         self.name.textAlignment = NSTextAlignmentLeft;

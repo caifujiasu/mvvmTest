@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util
+END
+RSADataSigner.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util/RSADataSigner.m
+END
+MD5DataSigner.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util/MD5DataSigner.m
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util/config.h
+END
+DataVerifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util/DataVerifier.h
+END
+NSDataEx.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util/NSDataEx.h
+END
+DataVerifier.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util/DataVerifier.m
+END
+RSADataVerifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util/RSADataVerifier.h
+END
+NSDataEx.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util/NSDataEx.m
+END
+RSADataVerifier.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util/RSADataVerifier.m
+END
+DataSigner.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util/DataSigner.h
+END
+openssl_wrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util/openssl_wrapper.h
+END
+DataSigner.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util/DataSigner.m
+END
+RSADataSigner.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util/RSADataSigner.h
+END
+MD5DataSigner.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util/MD5DataSigner.h
+END
+openssl_wrapper.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/Util/openssl_wrapper.m
+END

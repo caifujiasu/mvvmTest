@@ -1,0 +1,33 @@
+//
+//  mvvm.pch
+//  mvvmTest
+//
+//  Created by sheng on 2016/10/13.
+//  Copyright © 2016年 sheng. All rights reserved.
+//
+
+#ifndef mvvm_pch
+#define mvvm_pch
+
+// 引入头文件
+#import "JSONKit.h"
+#import "UserEntity.h"
+#import "PublicPram.h"
+
+#ifndef Generalize
+
+#define Generalize(objType) @protocol objType @end \
+@interface NSObject(objType)<objType> @end
+
+#endif
+
+// 宏定义
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kAccessToken @"accessToken"
+#define kSign @"sign"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* mvvm_pch */

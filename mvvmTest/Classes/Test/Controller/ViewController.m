@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "View.h"
 #import "ViewModel.h"
+#import "ZSWeatherService.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic, strong) UITableView *tableView;
@@ -28,6 +29,40 @@
     
     _models = [ViewModel viewModels];
 }
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+//    ZSWeatherService *weather = [ZSWeatherService new];
+//    weather.city = @"beijing";
+//    [weather requestGET:YES url:@"http://apis.baidu.com/heweather/weather/free" resultBlcok:^(id data, NSError *error) {
+//
+//        if (!error) {
+//            NSLog(@"%@",error);
+//        }else{
+//            NSLog(@"%@",data);
+//        }
+//    }];
+
+    NSURL *url = [NSURL URLWithString:@"http://www.daka.com/login"];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    request.HTTPMethod = @"POST";
+    request.HTTPBody = [@"username=daka&pwd=123" dataUsingEncoding:NSUTF8StringEncoding];
+    [request setValue: @"1111" forHTTPHeaderField:@"Connection"];
+    [request setValue:@"gzip,deflate,sdch" forHTTPHeaderField:@"Accept-Encoding"];
+    [request setValue:@"1111" forHTTPHeaderField:@"Accept-Language"];
+
+    NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
+    config.HTTPAdditionalHeaders = @{@"Connection":@"close"};
+
+    NSLog(@"%@",request.allHTTPHeaderFields);
+    NSURLSession *session = [NSURLSession sessionWithConfiguration:config];
+    // 由于要先对request先行处理,我们通过request初始化task
+    NSURLSessionTask *task = [session dataTaskWithRequest:request
+                                        completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) { NSLog(@"%@", [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil]); }];
+    [task resume];
+    
+}
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;

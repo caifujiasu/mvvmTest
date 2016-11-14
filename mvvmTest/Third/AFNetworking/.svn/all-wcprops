@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/BFB-Mobile/!svn/ver/3390/code/iOS/BFBNewPaySDK/BFBSDK_demo_V2/BFBSDK_demo/AFNetworking
+END
+AFHTTPSessionManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/BFB-Mobile/!svn/ver/3390/code/iOS/BFBNewPaySDK/BFBSDK_demo_V2/BFBSDK_demo/AFNetworking/AFHTTPSessionManager.m
+END
+AFURLResponseSerialization.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/BFB-Mobile/!svn/ver/3390/code/iOS/BFBNewPaySDK/BFBSDK_demo_V2/BFBSDK_demo/AFNetworking/AFURLResponseSerialization.m
+END
+AFNetworkReachabilityManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/BFB-Mobile/!svn/ver/3390/code/iOS/BFBNewPaySDK/BFBSDK_demo_V2/BFBSDK_demo/AFNetworking/AFNetworkReachabilityManager.h
+END
+AFURLSessionManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/BFB-Mobile/!svn/ver/3390/code/iOS/BFBNewPaySDK/BFBSDK_demo_V2/BFBSDK_demo/AFNetworking/AFURLSessionManager.m
+END
+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/BFB-Mobile/!svn/ver/3390/code/iOS/BFBNewPaySDK/BFBSDK_demo_V2/BFBSDK_demo/AFNetworking/AFNetworking.h
+END
+AFSecurityPolicy.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/BFB-Mobile/!svn/ver/3390/code/iOS/BFBNewPaySDK/BFBSDK_demo_V2/BFBSDK_demo/AFNetworking/AFSecurityPolicy.h
+END
+AFURLRequestSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/BFB-Mobile/!svn/ver/3390/code/iOS/BFBNewPaySDK/BFBSDK_demo_V2/BFBSDK_demo/AFNetworking/AFURLRequestSerialization.h
+END
+AFNetworkReachabilityManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/BFB-Mobile/!svn/ver/3390/code/iOS/BFBNewPaySDK/BFBSDK_demo_V2/BFBSDK_demo/AFNetworking/AFNetworkReachabilityManager.m
+END
+AFSecurityPolicy.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/BFB-Mobile/!svn/ver/3390/code/iOS/BFBNewPaySDK/BFBSDK_demo_V2/BFBSDK_demo/AFNetworking/AFSecurityPolicy.m
+END
+AFHTTPSessionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/BFB-Mobile/!svn/ver/3390/code/iOS/BFBNewPaySDK/BFBSDK_demo_V2/BFBSDK_demo/AFNetworking/AFHTTPSessionManager.h
+END
+AFURLRequestSerialization.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/BFB-Mobile/!svn/ver/3390/code/iOS/BFBNewPaySDK/BFBSDK_demo_V2/BFBSDK_demo/AFNetworking/AFURLRequestSerialization.m
+END
+AFURLResponseSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/BFB-Mobile/!svn/ver/3390/code/iOS/BFBNewPaySDK/BFBSDK_demo_V2/BFBSDK_demo/AFNetworking/AFURLResponseSerialization.h
+END
+AFURLSessionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/BFB-Mobile/!svn/ver/3390/code/iOS/BFBNewPaySDK/BFBSDK_demo_V2/BFBSDK_demo/AFNetworking/AFURLSessionManager.h
+END

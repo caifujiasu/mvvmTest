@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/BFB-Mobile/!svn/ver/1906/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA
+END
+NSData+Base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/NSData+Base64.h
+END
+NSString+Base64.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/NSString+Base64.m
+END
+NSData+Base64.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/NSData+Base64.m
+END
+libcrypto.a
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/BFB-Mobile/!svn/ver/1906/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/libcrypto.a
+END
+libssl.a
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/BFB-Mobile/!svn/ver/1906/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/libssl.a
+END
+NSString+Base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/BFB-Mobile/!svn/ver/1806/code/iOS/BFBNewPaySDK/BFBCore/BFBCore/3rdLibs/RSA/NSString+Base64.h
+END
