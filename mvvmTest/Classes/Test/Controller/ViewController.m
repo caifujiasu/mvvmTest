@@ -43,7 +43,7 @@
 //        }
 //    }];
 
-    NSURL *url = [NSURL URLWithString:@"http://www.daka.com/login"];
+    NSURL *url = [NSURL URLWithString:@"http://www.daka.com/login"]  ;
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     request.HTTPMethod = @"POST";
     request.HTTPBody = [@"username=daka&pwd=123" dataUsingEncoding:NSUTF8StringEncoding];
